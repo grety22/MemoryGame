@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+#memory_board {
+    display: block;
+	background:#CCC;
+	border:#ffffff 4px solid;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
+    max-width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.16); 
+}
+#memory_board > div{
+	background-image: url(http://www.freeiconspng.com/uploads/brain-creative-head-mind-settings-thinking-icon-10.png);
+    background-size: contain;
+    border-radius: 55px;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+    display: inline-block;
+    vertical-align: top;
+/* background-color: green;*/
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.16);
+    font-family: 'Bangers', cursive;
+}
+
+#memory_board > div:hover {
+	background-color: white;
+     opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}    
